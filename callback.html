@@ -1,0 +1,17 @@
+<html>
+    <body>
+        <h2 id="demo"></h2>
+        <h1 id="d"></h1>
+        <script>
+            function f3(){
+                var d=new Date();
+                document.getElementById("demo").innerHTML=d.getHours()+":"+d.getMinutes()+":"+d.getSeconds();
+            }
+            function add(x,y,callback){
+                document.getElementById("d").innerHTML="welcome";
+                callback();
+            }
+            add(9,7,f3)
+        </script>
+    </body>
+</html>

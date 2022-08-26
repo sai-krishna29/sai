@@ -1,0 +1,17 @@
+<html>
+    <body>
+        <h2 id="demo"></h2>
+        <script>
+            function f3(){
+                var d=new Date();
+                document.getElementById("demo").innerHTML=d.getHours()+":"+d.getMinutes()+":"+d.getSeconds();
+            }
+            function f1(x,y){
+                document.write(x+y+"  ");
+            }
+            setTimeout(f1,5000,100,39);
+            
+            setInterval(f1,3000,199,23);
+        </script>
+    </body>
+</html>
